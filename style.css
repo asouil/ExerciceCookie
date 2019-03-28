@@ -1,0 +1,88 @@
+html{
+
+	cursor:url("./etoile.png");
+}
+button {
+	background:url(./space.jpg);
+	align-self: center;
+	font-family:cursive;
+	width:150px;
+	color:white;
+	border-radius:100px;
+	border-style:none;
+
+}
+
+#clic{
+	
+	background:url(./cookie_.png);
+	width:500px;
+	height:300px;
+	cursor: pointer;
+	border-radius:130px;
+	max-width: 100%;
+}
+
+#clic:active{
+	background:url(./tablette-chocolat.png);
+	width:500px;
+	height:300px;
+	cursor:pointer;
+	border-radius:130px;
+	max-width: 100%;
+
+}
+
+body{
+	background-image:url(./stage.png);
+	background-color: black;
+	color: white;
+	display:flex;
+	width:300%;
+	height:300%;
+	font:bold;
+
+
+}
+
+#autoclick:disabled {
+	background:url(./black.jpg);
+	color:red;
+}
+
+#autoclick:active{
+
+	color:blue;
+}
+
+#bonus:disabled {
+	background:url(./black.jpg);
+	color:red;
+}
+
+#bonus:active{
+
+	color:blue;
+}
+
+#multiplier:active{
+
+	color:blue;
+}
+#multiplier:disabled{
+
+	background:url(./black.jpg);
+	color:red;
+}
+
+div {
+
+	text-align:center;
+	padding:0px 16px;
+	margin:12px 0px;
+	font-size:50px;
+	align-content: center;
+	align-self: center;
+	justify-content:space-between;
+
+}
