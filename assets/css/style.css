@@ -1,12 +1,11 @@
 html{
 
-	cursor:url("./etoile.png");
 }
 button {
-	background:url(./space.jpg);
+	background:url(../img/space.jpg);
 	align-self: center;
 	font-family:cursive;
-	width:150px;
+	width:300px;
 	color:white;
 	border-radius:100px;
 	border-style:none;
@@ -14,28 +13,10 @@ button {
 
 }
 
-#clic{
-	
-	background:url(./cookie_.png);
-	width:500px;
-	height:300px;
-	cursor: pointer;
-	border-radius:130px;
-	max-width: 100%;
-}
-
-#clic:active{
-	background:url(./tablette-chocolat.png);
-	width:500px;
-	height:300px;
-	cursor:pointer;
-	border-radius:130px;
-	max-width: 100%;
-
-}
-
 body{
-	background-image:url(./stage.png);
+
+	cursor:url("../img/etoile.png"), default;
+	background-image:url(../img/stage.png);
 	background-color: black;
 	color: white;
 	display:flex;
@@ -45,36 +26,6 @@ body{
 	flex-direction:column;
 	background-size:cover;
 
-}
-
-#autoclick:disabled {
-	background:url(./black.jpg);
-	color:red;
-}
-
-#autoclick:active{
-
-	color:blue;
-}
-
-#bonus:disabled {
-	background:url(./black.jpg);
-	color:red;
-}
-
-#bonus:active{
-
-	color:blue;
-}
-
-#multiplier:active{
-
-	color:blue;
-}
-#multiplier:disabled{
-
-	background:url(./black.jpg);
-	color:red;
 }
 
 div {
@@ -87,4 +38,52 @@ div {
 	align-self: center;
 	justify-content:space-between;
 
+}
+
+#autoclick:active{
+
+	color:blue;
+}
+
+#autoclick:disabled {
+	background:url(../img/black.jpg);
+	color:red;
+}
+
+#bonus:active{
+
+	color:blue;
+}
+
+#bonus:disabled {
+	background:url(../img/black.jpg);
+	color:red;
+}
+
+#clic{
+	
+	background:url(../img/cookie_.png);
+	width:500px;
+	height:300px;
+	cursor: pointer;
+	border-radius:130px;
+	max-width: 100%;
+}
+#clic:active{
+	background:url(../img/tablette-chocolat.png);
+	width:500px;
+	height:300px;
+	cursor:"../img/etoile.png",pointer;
+	border-radius:130px;
+	max-width: 100%;
+
+}
+#multiplier:active{
+
+	color:blue;
+}
+#multiplier:disabled{
+
+	background:url(../img/black.jpg);
+	color:red;
 }
